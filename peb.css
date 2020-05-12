@@ -1,26 +1,39 @@
-h1  {
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 10px;
-    background-color: DarkGoldenRod;
-    color: black;
-    text-decoration: unset;
-    text-align: center;
-    opacity: 0.4 ;
-    }
- #box2 {
- 	color: white;
- 	background-color: Khaki;
-    height: 300px;
-    width: 400px;
-    margin-left: 80px;
-    margin-top: -40px;
-       }
- #box1 {
- 	color: white;
- 	background-color: Khaki;
-    height: 300px;
-    width: 400px;
-    margin-left: 590px;
-    margin-top: -40px;
-       }
+h2{
+	margin-top: 45%;
+	position: sticky;
+	text-decoration-style: wavy;
+	color: white;
+	opacity: 0.8;
+}
+body{
+			background-image: url('5.jpg');
+			background-size: contain;   
+		}
+		h1{
+			font-size: 2.1rem;
+			line-height: 1.4;
+			letter-spacing: 0.5rem;
+			text-align: center;
+			color: white;
+			margin-top: 50px;
+		}
+		.div1{
+           width: 70%;
+           height: 400px;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+           background-image: url('3.jpg');
+           background-size: 100% 100%;
+           box-shadow: 1px 2px 10px 5px white;
+           animation:slider 100s infinite linear;
+		}
+		  @keyframes slider{
+		  	 0%{background-image: url('7.jpg');}
+		  	15%{background-image: url('6.jpg');}
+		  	35%{background-image: url('2.jpg');}
+		  	55%{background-image: url('5.jpg');}
+		  	75%{background-image: url('4.jpg');}
+		  	95%{background-image: url('3.jpg');}
+		  }
